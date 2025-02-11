@@ -12,10 +12,15 @@ a{
 p a{
     color:midnightblue;
 }
+p{
+    text-align: center;
+}
+
 a:hover{
     color:aliceblue;
     text-decoration: none;
 }
+
 
 main{
     text-align: left;
