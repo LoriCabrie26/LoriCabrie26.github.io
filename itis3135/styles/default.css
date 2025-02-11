@@ -2,4 +2,24 @@ body{
     background-color: powderblue;
     text-align: center;
     color:midnightblue;
+    font-family:'Courier New', Courier, monospace;
+}
+a{
+    color:slategray;
+    text-decoration: line;
+    
+}
+a:hover{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+main{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+h2{
+    text-align: center;
 }
