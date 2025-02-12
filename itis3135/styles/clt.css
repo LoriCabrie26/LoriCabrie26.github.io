@@ -5,6 +5,12 @@ body{
     font-family:'Courier New', Courier, monospace;
 }
 
+h1{
+    text-decoration: underline;
+}
+
+
+
 a{
     color:rgb(128, 180, 128);
 }
