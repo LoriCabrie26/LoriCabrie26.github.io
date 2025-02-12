@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color:rgb(255, 255, 225);
+    color:darkolivegreen;
+    font-family:'Courier New', Courier, monospace;
+}
+
+a{
+    color:rgb(128, 180, 128);
+}
+
+footer div{
+    font-weight: bold;
+}
+
+a:hover{
+    color:rgb(121, 243, 184);
+    text-decoration: none;
+}
+div a:hover{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+div{
+    background-color:rgb(204, 234, 251);
+    margin-left: 32%;
+    width: 200px;
+    padding: 10px;
+    border: 2px solid rgb(128, 180, 128);
+}
