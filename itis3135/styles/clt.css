@@ -24,7 +24,8 @@ div a:hover{
 
 div{
     background-color:rgb(204, 234, 251);
-    margin-left: 32%;
+    margin-left: auto;
+    margin-right: auto;
     width: 200px;
     padding: 10px;
     border: 2px solid rgb(128, 180, 128);
