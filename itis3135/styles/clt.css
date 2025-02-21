@@ -1,38 +1,63 @@
 body{
     text-align: center;
-    background-color:rgb(255, 255, 225);
+    /*background-color:rgb(255, 255, 225);*/
+    background: url("../images/YellowStonePic.jpg") no-repeat center center fixed;
+    background-size: cover;
     color:darkolivegreen;
-    font-family:'Courier New', Courier, monospace;
+    font-family:'Times New Roman', Times, serif
 }
+
 
 h1{
     text-decoration: underline;
+    background-color: rgba(255, 228, 196, 0.7); /* Bisque with 70% opacity */
+    padding: 10px; /* Adds spacing inside the box */
+    border-radius: 5px;
+    display: inline-block;
 }
 
+
+
+h2{
+    background-color: rgba(255, 228, 196, 0.7); /* Bisque with 70% opacity */
+    padding: 10px; /* Adds spacing inside the box */
+    border-radius: 5px;
+    display: inline-block;
+}
 
 
 a{
-    color:rgb(128, 180, 128);
+    color: darkolivegreen;
 }
 
-footer div{
+footer {
+    background-color: bisque;
+    padding-bottom: 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    font-size: 20px;
+}
+
+main div{
     font-weight: bold;
 }
 
-a:hover{
-    color:rgb(121, 243, 184);
+footer a:hover{
+    color: rgb(239, 174, 231);
     text-decoration: none;
 }
-div a:hover{
+ main div a:hover{
     color:aliceblue;
     text-decoration: none;
 }
 
-div{
-    background-color:rgb(204, 234, 251);
+main div{
+    background-color:rgb(239, 174, 231, 0.9);
     margin-left: auto;
     margin-right: auto;
     width: 200px;
     padding: 10px;
-    border: 2px solid rgb(128, 180, 128);
+    border: 2px solid darkolivegreen;
 }
