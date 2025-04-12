@@ -43,6 +43,24 @@
         .content-list li {
             margin-bottom: 8px;
         }
+        figure {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%; /* Ensures the image fits within its container */
+            height: auto; /* Maintains aspect ratio */
+            margin: 10px 0; /* Adds margin above and below the image */
+            display: block; /* Removes bottom space under the image */
+            border-radius: 8px; /* Optional: adds rounded corners to the image */
+        }
+
+        figcaption {
+            font-size: 14px;
+            color: #666;
+        }
         footer {
             text-align: center;
             padding: 10px;
@@ -68,9 +86,9 @@
             <section class="page-section">
                 <h2>Project Overview</h2>
                 <ul class="content-list">
-                    <li><strong>Description:</strong> My client is Lindsay Cabrie, my sister. She is an aspiring actor and journalist. This website is meant to be an online portfolio for her. Overall, it will walk through her experience in all areas, with pictures and detailed explanations about the work she's done in each area. As well as her future aspirations.</li>
-                    <li><strong>Intended Users:</strong> Intended users for this website are any requiters that might be interested in hiring her. As well as anyone else who wishes to look into her experience.</li>
-                    <li><strong>Website Content:</strong> Pictures and descriptions for her previous work. Links to different sections for acting and journalism. Any revelent coursework that she has done at UNCC, courses that relate to her aspriations.</li>
+                    <li><strong>Description:</strong> My client is Lindsay Cabrie, my sister. She is an aspiring actor. This website is meant to be an online portfolio for her. Overall, it will walk through her experience in all areas, with pictures and detailed explanations about the work she's done in each area. As well as her future aspirations.</li>
+                    <li><strong>Intended Users:</strong> Intended users for this website are any recruiters that might be interested in hiring her. As well as anyone else who wishes to look into her experience.</li>
+                    <li><strong>Website Content:</strong> Pictures and descriptions for her previous work. Links to different sections for her acting experience, her social medias, resume and self-tapes, etc. And an introduction to her as well.</li>
                 </ul>
             </section>
 
@@ -85,42 +103,105 @@
             </section>
 
             <section class="page-section">
-                <h2>Site Map</h2>
-                <p>Please produce a site map for your application. Example tools to use: <a href="https://www.gloomaps.com/" target="_blank">Gloomaps</a></p>
+                <h2>WireFrame - Homepage</h2>
+                <figure>
+                    <img src="images/Wireframeclient.jpg" alt="Lori Cabrie">
+                    <figcaption>Wireframe</figcaption>
+                </figure>
             </section>
-
+            <section class="page-section">
+                <h2>Site Map</h2>
+                <figure>
+                    <img src="images/ClientProject.jpg" alt="Lori Cabrie">
+                    <figcaption>Site Map</figcaption>
+                </figure>
+            </section>
             <section class="page-section">
                 <h2>Page Design</h2>
-                <p>For each page listed in your site map, provide the following:</p>
+
                 <ul class="content-list">
-                    <li><strong>Name of the Page:</strong> [Page Name]</li>
-                    <li><strong>Purpose of the Page:</strong> [Page Purpose]</li>
-                    <li><strong>Audience/Users:</strong> [Target Audience]</li>
+                    <li><strong>Name of the Page:</strong> Home</li>
+                    <li><strong>Purpose of the Page:</strong> Act as a home page and access point for all other pages.</li>
+                    <li><strong>Audience/Users:</strong> Everyone</li>
                     <li><strong>Page Content:</strong>
                         <ul>
-                            <li>Is this a page where users enter data?</li>
-                            <li>Will there be any validations?</li>
-                            <li>Will it have buttons, hyperlinks, or drop-downs?</li>
-                            <li>Actions when buttons are clicked, e.g., saving data, navigating to another page, etc.</li>
+                            <li>This page will have buttons, hyperlinks, and a background image. When any hyperlink is clicked it will go to its respective page.
+                                I plan to also add a header and footer. Her name will be at the center and I might make it where if you click on her name you will go to the introduction page
+                                (There will still be a hyperlink to it in the header). Anything else she requests will be added as well.</li>
                         </ul>
                     </li>
-                    <li><strong>Special Notes:</strong> Any additional information.</li>
-                    <li><strong>Mockup/Prototype:</strong> You can use tools like <a href="http://www.justinmind.com/" target="_blank">JustinMind</a>, <a href="http://www.axure.com/" target="_blank">Axure</a>, or <a href="http://balsamiq.com/products/mockups/" target="_blank">Balsamiq</a> for prototypes.</li>
+                </ul>
+
+                <ul class="content-list">
+                    <li><strong>Name of the Page:</strong> Introduction</li>
+                    <li><strong>Purpose of the Page:</strong> Includes a professional picture, with an introductory paragraph and any other based on my clients preferences information.</li>
+                    <li><strong>Audience/Users:</strong> Everyone</li>
+                    <li><strong>Page Content:</strong>
+                        <ul>
+                            <li>This page will have buttons, hyperlinks, and a background image and professional image. When any hyperlink is clicked it will go to its respective page.
+                                I plan to also add a header and footer. I'm thinking of doing a slide in feature for the text and/or professional image. One that moves smoothly.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="content-list">
+                    <li><strong>Name of the Page:</strong> Experience</li>
+                    <li><strong>Purpose of the Page:</strong> Includes imagery from jobs she's done and even some hobbies, with paragraph captions explaining her experience with each job/hobby.</li>
+                    <li><strong>Audience/Users:</strong> Everyone</li>
+                    <li><strong>Page Content:</strong>
+                        <ul>
+                            <li>This page will have buttons, hyperlinks, and a background image and multiple other images. When any hyperlink is clicked it will go to its respective page.
+                                I plan to also add a header and footer. I'm thinking of doing a slide in feature for the text and/or images, same as the introduction page. I might decide to do drop-downs 
+                            instead but will see which one my client likes more.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="content-list">
+                    <li><strong>Name of the Page:</strong> Contact/Social Media</li>
+                    <li><strong>Purpose of the Page:</strong> This page will include any contact information my client wishes to add such as email, phone number, etc. My client also has her instagram page so posts and reel from that page will be featured, as well as links to her social media.</li>
+                    <li><strong>Audience/Users:</strong> Everyone</li>
+                    <li><strong>Page Content:</strong>
+                        <ul>
+                            <li>This page will have buttons, hyperlinks, videos and images. When any hyperlink is clicked it will go to its respective page.
+                                I plan to also add a header and footer. Based on the design options I've talked about with my client, there will be extra features
+                                added to this page based on the videos and photos put in. These will be finalized when we finalize which videos and pictures she would
+                                like to use.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="content-list">
+                    <li><strong>Name of the Page:</strong> Important Info</li>
+                    <li><strong>Purpose of the Page:</strong> This page will reiterated her chosen contact information. This page will also include her resume and the self-tapes that she chooses.</li>
+                    <li><strong>Audience/Users:</strong> Everyone</li>
+                    <li><strong>Page Content:</strong>
+                        <ul>
+                            <li>This page will have buttons, hyperlinks, videos and images. When any hyperlink is clicked it will go to its respective page.
+                                I plan to also add a header and footer. A resume link/button will be added to this page. Similar to how the reels will be added, self-tape videos for recruiters will also be included. 
+                                Full layout isn't quite finalized for this page yet, but it will be a little similar to the contact page.
+                            </li>
+                        </ul>
+                    </li>
                 </ul>
             </section>
 
             <section class="page-section">
                 <h2>Dynamic Functionality</h2>
-                <p>Describe the dynamic functionality you will implement using JavaScript, such as forms, calculators, interactive images, photo galleries, etc. Specify the page where this interactivity will be used.</p>
+                <p> For Dynamic Functionality features, I really want to add small photo galleries on both the experience page and the contact page.
+                    The experience page photo gallery will have photos of her working/performing, while the contact page photo gallery will have some photos from her instagram posts.
+                    I might added a few interactive images as well, but I need to work on that with my client.
+                </p>
                 <ul class="content-list">
-                    <li><strong>Example:</strong> [Example URL of interactivity]</li>
+                    <li><strong>Example:</strong> <a href="https://www.bromleyandco.com/">bromleyandco.com</a> </li>
                 </ul>
             </section>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+        <p></p>
     </footer>
 </body>
 </html>
