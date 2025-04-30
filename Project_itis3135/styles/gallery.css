@@ -96,10 +96,12 @@ body {
   }
   
   footer {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
+    padding: 15px;
+    background: transparent; 
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
     color: white;
-  }
+}
   
