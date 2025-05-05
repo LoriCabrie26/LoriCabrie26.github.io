@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
         el.style.transition = 'opacity 1s ease-in-out';
     });
 
+    requestAnimationFrame(() => {
     // Fade in header first
     document.querySelector('header').style.opacity = 1;
 
@@ -13,7 +14,8 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         document.querySelector('main').style.opacity = 1;
         document.querySelector('footer').style.opacity = 1;
-    }, 100);
+    }, 300);
+});
 });
 
 
