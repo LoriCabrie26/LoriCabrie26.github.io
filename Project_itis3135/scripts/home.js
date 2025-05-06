@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         document.querySelector('main').style.opacity = 1;
         document.querySelector('footer').style.opacity = 1;
-    }, 200);
+    }, 700);
 });
 });
 
